@@ -72,19 +72,21 @@
 <h2>Imię i nazwisko</h2>
 <p><a href="mailto:a.b@o2.pl">a.b@o2.pl</a></p>
 <form action="">
-Imię
+*wymagane
 <br>
-<input type="text" name="Imię">
+Imię*
 <br>
-Nazwisko
+<input type="text" name="Imię" required>
 <br>
-<input type="text" name="Nazwisko">
+Nazwisko*
 <br>
-Treść wiadomości
+<input type="text" name="Nazwisko" required>
 <br>
-<textarea name="Wiadomość" style="width: 300px; height: 400px"></textarea>
+Treść wiadomości*
 <br>
-<input type="button" value="Wyślij" style="background-color: aqua; color:red;  width: 148px; height: 25px">
+<textarea name="Wiadomość" required style="width: 300px; height: 400px"></textarea>
+<br>
+<input type="submit" value="Wyślij" style="background-color: aqua; color:red;  width: 148px; height: 25px">
 </form>
 </section>
 
